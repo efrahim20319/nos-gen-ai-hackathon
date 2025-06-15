@@ -28,24 +28,25 @@ Instalação e Execução
 ----------------------
 
 1. Clone este repositório:
-   git clone https://github.com/seu-usuario/nome-do-repo.git
-   cd nome-do-repo
+   git clone [https://github.com/seu-usuario/nome-do-repo.git](https://github.com/efrahim20319/nos-gen-ai-hackathon.git)
+   
+   cd nos-gen-ai-hackathon
 
-2. Instale as dependências do Node.js:
+3. Instale as dependências do Node.js:
    npm install
 
-3. Instale a biblioteca PyPDF2 para Python:
+4. Instale a biblioteca PyPDF2 para Python:
    pip install PyPDF2
 
-4. Substitua a sua chave da API Gemini no ficheiro script.py:
+5. Substitua a sua chave da API Gemini no ficheiro script.py:
    API_KEY = "SUA_CHAVE_API_AQUI"
 
-5. Inicie o servidor Node.js:
+6. Inicie o servidor Node.js:
    node index.js
 
-6. Abra o ficheiro index.html no seu navegador ou utilize uma extensão como "Live Server" no VS Code.
+7. Abra o ficheiro index.html no seu navegador ou utilize uma extensão como "Live Server" no VS Code.
 
-7. Carregue um ficheiro PDF e clique em “Submeter” para ver o texto censurado.
+8. Carregue um ficheiro PDF e clique em “Submeter” para ver o texto censurado.
 
 Estrutura do Projeto
 ---------------------
@@ -62,5 +63,5 @@ Notas Finais
 - A API Gemini pode estar sujeita a limites de uso e custo – consulte a documentação oficial: https://ai.google.dev
 - O projeto é apenas para fins educacionais e demonstração de integração entre tecnologias.
 
-Autor: Nsimba Tamaku
+Autor: Nsimba Tamaku.
 Ano: 2025
