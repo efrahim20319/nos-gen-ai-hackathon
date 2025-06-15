@@ -3,7 +3,7 @@ import requests
 from PyPDF2 import PdfReader
 
 # Configuração da API do Gemini
-API_KEY = "AIzaSyDDSnGtZ0XZYkh-i4taALEjy5_6b3PhJYc"  # Substituir pela tua chave real
+API_KEY = " --- "  # Substituir pela tua chave real
 API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={API_KEY}"
 
 def extract_pdf_text(pdf_path: str) -> str:
